@@ -24,7 +24,7 @@ description: "「离开世界之前 一切都是过程」"
     </a>
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+	</p>
 </div>
 <hr>
 {% endfor %}
@@ -39,6 +39,7 @@ description: "「离开世界之前 一切都是过程」"
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
+	xxxxxxxxxxxxxxx
         <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
     </li>
     {% endif %}
