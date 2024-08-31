@@ -58,7 +58,7 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-# Disqus settings
+# Disqus settings 评论设置
 #disqus_username: OpenSourceSDRLab
 
 # Netease settings
